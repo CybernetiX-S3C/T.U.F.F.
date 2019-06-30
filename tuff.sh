@@ -105,10 +105,10 @@ theharvester -d $A -l 500 -b all > $B/theharvester.txt
 echo 'set send_human {.1 .3 1 .05 2}; send -h "theharvester scanning done...\n"' | expect -f /dev/stdin
 sleep 2
 #linx
-echo 'set send_human {.1 .3 1 .05 2}; send -h "starting lynx scanning...\n"' | expect -f /dev/stdin
-linx -listonly -dump $A > $B/lynx.txt
-echo 'set send_human {.1 .3 1 .05 2}; send -h "lynx scanning done...\n"' | expect -f /dev/stdin
-sleep 2
+#echo 'set send_human {.1 .3 1 .05 2}; send -h "starting lynx scanning...\n"' | expect -f /dev/stdin
+#linx -listonly -dump $A > $B/lynx.txt
+#echo 'set send_human {.1 .3 1 .05 2}; send -h "lynx scanning done...\n"' | expect -f /dev/stdin
+#sleep 2
 #nslookup
 echo 'set send_human {.1 .3 1 .05 2}; send -h "starting nslookup scanning...\n"' | expect -f /dev/stdin
 nslookup $A > $B/nslookup.txt

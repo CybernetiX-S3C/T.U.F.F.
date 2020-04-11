@@ -6,7 +6,7 @@ This tool will make your basic pentesting/recon tasks like Information Gathering
 # Usage Guide
 Download / Clone T.U.F.F.
 
-~# git clone https://github.com/CybernetiX-S3C/T.U.F.F..
+~# git clone https://github.com/CybernetiX-S3C/T.U.F.F.
 
 cd Inside T.U.F.F Dir
 

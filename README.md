@@ -28,6 +28,8 @@ or
 
 2) Run python
 
+~# pip install -r requirements.txt
+
 ~# python3 tuff_gui.py
 
 # Changelog

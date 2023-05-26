@@ -30,7 +30,9 @@ or
 
 ~# pip install -r requirements.txt
 
-~# python3 tuff_gui.py
+~# sudo apt-get install python3-tk
+
+~# sudo python3 tuff_gui.py
 
 # Changelog
 - 2.0 Updated, Clean, GUI with logo added*
